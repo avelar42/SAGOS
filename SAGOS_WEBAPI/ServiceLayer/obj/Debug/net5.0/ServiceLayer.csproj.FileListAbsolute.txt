@@ -1,0 +1,17 @@
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\ServiceLayer.deps.json
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\ServiceLayer.dll
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\ref\ServiceLayer.dll
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CoreCompileInputs.cache
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\DomainLayer.dll
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\RepositoryLayer.dll
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\DomainLayer.pdb
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+G:\GitHub\SAGOS\SAGOS_WEBAPI\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CopyComplete
