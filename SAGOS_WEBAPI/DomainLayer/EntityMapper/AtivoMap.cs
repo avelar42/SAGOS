@@ -9,33 +9,33 @@ using System.Threading.Tasks;
 
 namespace DomainLayer.EntityMapper
 {
-    public class FuncionarioMap : IEntityTypeConfiguration<Funcionario>
+    public class AtivoMap : IEntityTypeConfiguration<Ativo>
     {
-        public void Configure(EntityTypeBuilder<Funcionario> builder)
+        public void Configure(EntityTypeBuilder<Ativo> builder)
         {
             builder.HasKey(x => x.Id)
-                .HasName("pk_funcId");
+                .HasName("PK_AtivoId");
             builder.Property(x => x.Id)
                 .HasColumnName("Id")
                 .HasColumnType("uniqueidentifier");
-            builder.Property(x => x.Nome)
-                .HasColumnName("Nome")
-                .HasColumnType("Varchar(255)")
-                .IsRequired();
-            builder.Property(x => x.Telefone)
-                .HasColumnName("Telefone")
-                .HasColumnType("Varchar(255)");
+            builder.Property(x => x.NomeAtivo)
+               .HasColumnName("NomeAtivo")
+               .HasColumnType("Varchar(255)")
+               .IsRequired();
+            builder.Property(x => x.Identificador)
+               .HasColumnName("Identificador")
+               .HasColumnType("Varchar(255)")
+               .IsRequired();
             builder.Property(x => x.EntryDate)
                 .HasColumnName("EntryDate")
-                .HasColumnType("datetime");
+                .HasColumnType("datetime")
+                .IsRequired();
             builder.Property(x => x.UpdateDate)
                 .HasColumnName("UpdateDate")
                 .HasColumnType("datetime");
             builder.Property(x => x.IsActive)
-                .HasColumnName("IsActive")
+                .HasColumnType("Active")
                 .HasColumnType("bit");
-
-
         }
     }
 }

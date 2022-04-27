@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RepositoryLayer;
 
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220427141410_Add_Ativo_Cliente")]
+    partial class Add_Ativo_Cliente
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -86,55 +88,6 @@ namespace RepositoryLayer.Migrations
                     b.ToTable("Cliente");
                 });
 
-            modelBuilder.Entity("DomainLayer.Models.Endereco", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier")
-                        .HasColumnName("Id");
-
-                    b.Property<string>("Bairro")
-                        .HasColumnType("Varchar(255)")
-                        .HasColumnName("Bairro");
-
-                    b.Property<string>("Cidade")
-                        .HasColumnType("Varchar(255)")
-                        .HasColumnName("Cidade");
-
-                    b.Property<Guid>("ClienteId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Complemento")
-                        .HasColumnType("Varchar(255)")
-                        .HasColumnName("Complemento");
-
-                    b.Property<DateTime>("EntryDate")
-                        .HasColumnType("datetime")
-                        .HasColumnName("EntryDate");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("Numero")
-                        .HasColumnType("int")
-                        .HasColumnName("Numero");
-
-                    b.Property<string>("Rua")
-                        .HasColumnType("Varchar(255)")
-                        .HasColumnName("Rua");
-
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime")
-                        .HasColumnName("UpdateDate");
-
-                    b.HasKey("Id")
-                        .HasName("Pk_EnderecoId");
-
-                    b.HasIndex("ClienteId");
-
-                    b.ToTable("Endereco");
-                });
-
             modelBuilder.Entity("DomainLayer.Models.Funcionario", b =>
                 {
                     b.Property<Guid>("Id")
@@ -180,22 +133,9 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("Cliente");
                 });
 
-            modelBuilder.Entity("DomainLayer.Models.Endereco", b =>
-                {
-                    b.HasOne("DomainLayer.Models.Cliente", "Cliente")
-                        .WithMany("Enderecos")
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Cliente");
-                });
-
             modelBuilder.Entity("DomainLayer.Models.Cliente", b =>
                 {
                     b.Navigation("Ativos");
-
-                    b.Navigation("Enderecos");
                 });
 #pragma warning restore 612, 618
         }

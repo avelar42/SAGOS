@@ -18,6 +18,8 @@ namespace RepositoryLayer
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new FuncionarioMap());
+            modelBuilder.ApplyConfiguration(new ClienteMap());
+            modelBuilder.ApplyConfiguration(new EnderecoMap());
             base.OnModelCreating(modelBuilder);
         }
     }

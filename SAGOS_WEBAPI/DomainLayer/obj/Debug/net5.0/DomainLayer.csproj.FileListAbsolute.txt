@@ -10,15 +10,3 @@ G:\GitHub\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.csproj.Cor
 G:\GitHub\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.dll
 G:\GitHub\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\ref\DomainLayer.dll
 G:\GitHub\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.pdb
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\bin\Debug\net5.0\DomainLayer.deps.json
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\bin\Debug\net5.0\DomainLayer.dll
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\bin\Debug\net5.0\ref\DomainLayer.dll
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\bin\Debug\net5.0\DomainLayer.pdb
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.csproj.AssemblyReference.cache
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.AssemblyInfoInputs.cache
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.AssemblyInfo.cs
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.csproj.CoreCompileInputs.cache
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.dll
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\ref\DomainLayer.dll
-G:\Sagos\SAGOS\SAGOS_WEBAPI\DomainLayer\obj\Debug\net5.0\DomainLayer.pdb

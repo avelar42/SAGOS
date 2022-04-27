@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cNv/yY3qlpib7S5kNeXD8BNZkBWmZpCg8HIl5CeYzAZZYMsHMUaxHNy1+55g2CZJ9p2KSWEDPAyG62ySYun1Mw==",
+  "dgSpecHash": "ajDM8Az/ZFlkM2vcMdPcXK+KdQy7MrmlFIz//hF5UOOODHl1n3MhdSURULXeoXv4AzNHo5BPnlWev7bgXt9oCQ==",
   "success": true,
-  "projectFilePath": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

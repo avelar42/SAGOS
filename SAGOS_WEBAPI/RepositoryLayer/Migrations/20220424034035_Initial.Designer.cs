@@ -10,8 +10,8 @@ using RepositoryLayer;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220426014442_Initial_Migrations")]
-    partial class Initial_Migrations
+    [Migration("20220424034035_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,9 +23,9 @@ namespace RepositoryLayer.Migrations
 
             modelBuilder.Entity("DomainLayer.Models.Funcionario", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier")
+                        .HasColumnType("Varchar(255)")
                         .HasColumnName("Id");
 
                     b.Property<DateTime>("EntryDate")
