@@ -592,11 +592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\DomainLayer\\DomainLayer.csproj",
+      "projectUniqueName": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\DomainLayer\\DomainLayer.csproj",
       "projectName": "DomainLayer",
-      "projectPath": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\DomainLayer\\DomainLayer.csproj",
+      "projectPath": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\DomainLayer\\DomainLayer.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\DomainLayer\\obj\\",
+      "outputPath": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\DomainLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

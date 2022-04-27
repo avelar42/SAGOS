@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RepositoryLayer.Migrations
 {
-    public partial class Initial : Migration
+    public partial class Initial_Migrations : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,7 +11,7 @@ namespace RepositoryLayer.Migrations
                 name: "Funcionario",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "Varchar(255)", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Nome = table.Column<string>(type: "Varchar(255)", nullable: false),
                     Telefone = table.Column<string>(type: "Varchar(255)", nullable: true),
                     EntryDate = table.Column<DateTime>(type: "datetime", nullable: false),

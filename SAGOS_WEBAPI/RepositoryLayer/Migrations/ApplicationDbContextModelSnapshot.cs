@@ -21,9 +21,9 @@ namespace RepositoryLayer.Migrations
 
             modelBuilder.Entity("DomainLayer.Models.Funcionario", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("Varchar(255)")
+                        .HasColumnType("uniqueidentifier")
                         .HasColumnName("Id");
 
                     b.Property<DateTime>("EntryDate")

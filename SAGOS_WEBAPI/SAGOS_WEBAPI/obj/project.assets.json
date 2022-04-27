@@ -6093,11 +6093,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\SAGOS_WEBAPI\\SAGOS_WEBAPI.csproj",
+      "projectUniqueName": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\SAGOS_WEBAPI\\SAGOS_WEBAPI.csproj",
       "projectName": "SAGOS_WEBAPI",
-      "projectPath": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\SAGOS_WEBAPI\\SAGOS_WEBAPI.csproj",
+      "projectPath": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\SAGOS_WEBAPI\\SAGOS_WEBAPI.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\SAGOS_WEBAPI\\obj\\",
+      "outputPath": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\SAGOS_WEBAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6114,11 +6114,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\RepositoryLayer\\RepositoryLayer.csproj"
+            "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\RepositoryLayer\\RepositoryLayer.csproj"
             },
-            "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "G:\\GitHub\\SAGOS\\SAGOS_WEBAPI\\ServiceLayer\\ServiceLayer.csproj"
+            "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "G:\\Sagos\\SAGOS\\SAGOS_WEBAPI\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }

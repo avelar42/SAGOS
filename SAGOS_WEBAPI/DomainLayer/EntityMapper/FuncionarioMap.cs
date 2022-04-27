@@ -17,7 +17,8 @@ namespace DomainLayer.EntityMapper
                 .HasName("pk_funcId");
             builder.Property(x => x.Id)
                 .HasColumnName("Id")
-                .HasColumnType("Varchar(255)");
+                .HasColumnType("uniqueidentifier")
+                .IsRequired();
             builder.Property(x => x.Nome)
                 .HasColumnName("Nome")
                 .HasColumnType("Varchar(255)")
