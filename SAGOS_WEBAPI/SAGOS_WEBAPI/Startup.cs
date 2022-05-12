@@ -40,6 +40,7 @@ namespace SAGOS_WEBAPI
             services.AddDbContext<ApplicationDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IFuncionarioService, FuncionarioService>();
+            services.AddScoped<IClienteService, ClienteService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
