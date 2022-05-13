@@ -41,6 +41,8 @@ namespace SAGOS_WEBAPI
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IFuncionarioService, FuncionarioService>();
             services.AddScoped<IClienteService, ClienteService>();
+            services.AddScoped<IAtivoService, AtivoService>();
+            services.AddScoped<IEnderecoService, EnderecoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
