@@ -19,6 +19,11 @@ export const MENU: IMenuItem[] = [
     path: '/WorkOrder'
   },
   {
+    name: 'menusidebar.label.Client',
+    path: '/Client'
+  }
+  /*
+  {
     name: 'menusidebar.label.mainMenu',
     children: [
       {
@@ -32,6 +37,7 @@ export const MENU: IMenuItem[] = [
       }
     ]
   }
+  */
 ];
 
 const MenuSidebar = () => {
@@ -44,12 +50,12 @@ const MenuSidebar = () => {
     <aside className={`main-sidebar elevation-4 ${sidebarSkin}`}>
       <Link to="/" className="brand-link">
         <img
-          src="/img/logo.png"
-          alt="AdminLTE Logo"
+          src="/img/logoSagos.png"
+          alt="Sagos Logo"
           className="brand-image img-circle elevation-3"
           style={{opacity: '.8'}}
         />
-        <span className="brand-text font-weight-light">AdminLTE 3</span>
+        <span className="brand-text font-weight-light">SAGOS</span>
       </Link>
       <div className="sidebar">
         <div className="user-panel mt-3 pb-3 mb-3 d-flex">

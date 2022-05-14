@@ -79,8 +79,8 @@ const Main = () => {
         <div className="preloader flex-column justify-content-center align-items-center">
           <img
             className="animation__shake"
-            src="/img/logo.png"
-            alt="AdminLTELogo"
+            src="/img/logoSagos.png"
+            alt="SagosLogo"
             height="60"
             width="60"
           />

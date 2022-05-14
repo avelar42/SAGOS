@@ -80,7 +80,8 @@
       "blank": "Blank",
       "mainMenu": "Main Menu",
       "subMenu": "Sub Menu",
-      "WorkOrder": "Work Order"
+      "WorkOrder": "Work Order",
+      "Client": "Client"
     }
   },
   "footer": {

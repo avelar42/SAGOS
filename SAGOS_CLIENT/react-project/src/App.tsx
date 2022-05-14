@@ -17,6 +17,8 @@ import Profile from '@pages/profile/Profile';
 
 import PublicRoute from './routes/PublicRoute';
 import PrivateRoute from './routes/PrivateRoute';
+import WorkOrder from './pages/workorder/WorkOrder';
+import Client from './pages/client/Client';
 
 const App = () => {
   const windowSize = useWindowSize();
@@ -52,6 +54,8 @@ const App = () => {
             <Route path="/blank" element={<Blank />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/" element={<Dashboard />} />
+            <Route path="/workorder" element={<WorkOrder />} />
+            <Route path="/client" element={<Client />} />
           </Route>
         </Route>
       </Routes>
